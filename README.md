@@ -1,2 +1,2 @@
 # ros_sandbox
-My repo to learn ros.
+This is my repo to learn and try out stuff with ros.
