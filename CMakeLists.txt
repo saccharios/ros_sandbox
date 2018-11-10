@@ -191,14 +191,20 @@ include_directories(
 
 ## Add gtest based cpp test target and link libraries
 SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread")
-catkin_add_gtest(${PROJECT_NAME}_test test/add_two_ints_client_test.cpp)
-if(TARGET ${PROJECT_NAME}-test)
-  target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
+SET(PROJECT_TEST_NAME ${PROJECT_NAME}_test)
+
+catkin_add_gtest(${PROJECT_TEST_NAME} test/add_two_ints_client_test.cpp)
+if(TARGET ${PROJECT_TEST_NAME})
+  target_link_libraries(${PROJECT_TEST_NAME} ${catkin_LIBRARIES})
+#  target_link_libraries(${PROJECT_TEST_NAME} ${PROJECT_NAME})
 endif()
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
 
+#############
+## Custom  ##
+#############
 add_executable(talker src/talker.cpp)
 target_link_libraries(talker ${catkin_LIBRARIES})
 add_dependencies(talker beginner_tutorials_generate_messages_cpp)
