@@ -5,5 +5,6 @@
 int main(int argc, char **argv)
 {
     ListenerImpl listener(argc, argv);
+    ros::spin();
     return 0;
 }

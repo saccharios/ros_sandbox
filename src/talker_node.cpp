@@ -80,7 +80,7 @@ int main(int argc, char **argv)
    * buffer up before throwing some away.
    */
 // %Tag(PUBLISHER)%
-  ros::Publisher chatter_pub = n.advertise<std_msgs::String>("chatter", 1000);
+  ros::Publisher talker_pub = n.advertise<std_msgs::String>("talker", 1000);
 // %EndTag(PUBLISHER)%
 
 // %Tag(LOOP_RATE)%
@@ -118,7 +118,7 @@ int main(int argc, char **argv)
      * in the constructor above.
      */
 // %Tag(PUBLISH)%
-    chatter_pub.publish(msg);
+    talker_pub.publish(msg);
 // %EndTag(PUBLISH)%
 
 // %Tag(SPINONCE)%

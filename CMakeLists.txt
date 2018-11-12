@@ -194,8 +194,10 @@ SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread")
 SET(PROJECT_TEST_NAME ${PROJECT_NAME}_test)
 
 catkin_add_gtest(${PROJECT_TEST_NAME} test/add_two_ints_server_test.cpp)
+catkin_add_gtest(${PROJECT_TEST_NAME}_listener test/listener_impl_test.cpp)
 if(TARGET ${PROJECT_TEST_NAME})
   target_link_libraries(${PROJECT_TEST_NAME} ${catkin_LIBRARIES})
+  target_link_libraries(${PROJECT_TEST_NAME}_listener ${catkin_LIBRARIES})
 #  target_link_libraries(${PROJECT_TEST_NAME} ${PROJECT_NAME})
 endif()
 

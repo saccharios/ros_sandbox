@@ -1,10 +1,12 @@
+#include <rosconsole/macros_generated.h>
 #include "ros/ros.h"
 #include "std_msgs/String.h"
 
 class ListenerImpl
 {
 public:
-    ListenerImpl(int argc, char **argv)
+    ListenerImpl(int argc, char **argv) :
+        _message()
     {
         /**
          * The ros::init() function needs to see argc and argv so that it can perform
@@ -30,7 +32,7 @@ public:
          * on a given topic.  This invokes a call to the ROS
          * master node, which keeps a registry of who is publishing and who
          * is subscribing.  Messages are passed to a callback function, here
-         * called chatterCallback.  subscribe() returns a Subscriber object that you
+         * called talkerCallback.  subscribe() returns a Subscriber object that you
          * must hold on to until you want to unsubscribe.  When all copies of the Subscriber
          * object go out of scope, this callback will automatically be unsubscribed from
          * this topic.
@@ -40,19 +42,26 @@ public:
          * is the number of messages that will be buffered up before beginning to throw
          * away the oldest ones.
          */
-        ros::Subscriber sub = n.subscribe("chatter", 1000, chatterCallback);
-
-        /**
-         * ros::spin() will enter a loop, pumping callbacks.  With this version, all
-         * callbacks will be called from within this thread (the main one).  ros::spin()
-         * will exit when Ctrl-C is pressed, or the node is shutdown by the master.
-         */
-        ros::spin();
+        ros::Subscriber sub = n.subscribe("talker", 1000, &ListenerImpl::talkerCallback, this);
     }
 
-    static void chatterCallback(const std_msgs::String::ConstPtr& msg)
+
+    void talkerCallback(const std_msgs::String::ConstPtr& msg)
     {
-        ROS_INFO("I heard: [%s]", msg->data.c_str());
+        std::cerr << "Iam called\n";
+        _message = msg->data.c_str();
+        ROS_INFO_STREAM( "I heard: " << _message);
     }
+
+    std::string getMessage() const
+    {
+        return _message;
+    }
+
+private:
+    std::string _message;
+
+
+
 };
 
