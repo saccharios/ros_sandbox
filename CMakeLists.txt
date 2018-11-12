@@ -205,9 +205,9 @@ endif()
 #############
 ## Custom  ##
 #############
-add_executable(talker src/talker.cpp)
-target_link_libraries(talker ${catkin_LIBRARIES})
-add_dependencies(talker beginner_tutorials_generate_messages_cpp)
+add_executable(talker_node src/talker_node.cpp)
+target_link_libraries(talker_node ${catkin_LIBRARIES})
+add_dependencies(talker_node beginner_tutorials_generate_messages_cpp)
 
 add_executable(listener_node src/listener_node.cpp)
 target_link_libraries(listener_node ${catkin_LIBRARIES})
