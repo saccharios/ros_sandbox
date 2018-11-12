@@ -19,7 +19,12 @@ TEST(TestSuite, testCase12)
 int main(int argc, char **argv)
 {
   testing::InitGoogleTest(&argc, argv);
+
+
   ros::init(argc, argv, "tester");
   ros::NodeHandle node_handle;
+
+
+
   return RUN_ALL_TESTS();
 }

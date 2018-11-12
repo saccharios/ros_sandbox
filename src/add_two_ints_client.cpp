@@ -16,7 +16,8 @@ int main(int argc, char **argv)
   beginner_tutorials::AddTwoInts srv;
   srv.request.a = atoll(argv[1]);
   srv.request.b = atoll(argv[2]);
-  if (client.call(srv))
+  bool success = client.call(srv);
+  if (success)
   {
     ROS_INFO("Sum: %ld", (long int)srv.response.sum);
   }
