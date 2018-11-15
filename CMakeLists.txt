@@ -191,14 +191,17 @@ include_directories(
 
 ## Add gtest based cpp test target and link libraries
 SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread")
-SET(PROJECT_TEST_NAME ${PROJECT_NAME}_test)
+SET(UNIT_TEST unit_test)
 
-catkin_add_gtest(${PROJECT_TEST_NAME} test/add_two_ints_server_test.cpp)
-catkin_add_gtest(${PROJECT_TEST_NAME}_listener test/listener_impl_test.cpp)
-if(TARGET ${PROJECT_TEST_NAME})
-  target_link_libraries(${PROJECT_TEST_NAME} ${catkin_LIBRARIES})
-  target_link_libraries(${PROJECT_TEST_NAME}_listener ${catkin_LIBRARIES})
-#  target_link_libraries(${PROJECT_TEST_NAME} ${PROJECT_NAME})
+catkin_add_gtest(${UNIT_TEST} test/unit_test_example.cpp)
+if(TARGET ${UNIT_TEST})
+  target_link_libraries(${UNIT_TEST} ${catkin_LIBRARIES})
+endif()
+
+SET(INTEGRATION_TEST integration_test)
+catkin_add_gtest(${INTEGRATION_TEST} test/listener_impl_test.cpp)
+if(TARGET ${INTEGRATION_TEST})
+  target_link_libraries(${INTEGRATION_TEST} ${catkin_LIBRARIES})
 endif()
 
 ## Add folders to be run by python nosetests
