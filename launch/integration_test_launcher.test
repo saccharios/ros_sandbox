@@ -1,3 +1,3 @@
 <launch>
-  <test test-name="my_name" pkg="beginner_tutorials" type="integration_test" />
+  <test test-name="my_name" pkg="beginner_tutorials" type="integration_test_exe" />
 </launch>

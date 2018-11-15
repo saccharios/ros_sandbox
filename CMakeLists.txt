@@ -207,8 +207,8 @@ endif()
 
 if(CATKIN_ENABLE_TESTING)
     find_package(rostest REQUIRED)
-    add_rostest_gtest(testing_test launch/integration_test_launcher.test test/calculator_test.cpp)
-    target_link_libraries(testing_test ${catkin_LIBRARIES} integration_test)
+    add_rostest_gtest(integration_test_exe launch/integration_test_launcher.test test/calculator_test.cpp)
+    target_link_libraries(integration_test_exe ${catkin_LIBRARIES} integration_test)
 endif()
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
