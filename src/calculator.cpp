@@ -3,7 +3,7 @@
 
 int Calculator::do_some_math(int value)
 {
- return value;
+    return value<10?(value + 5):0;
 }
 void Calculator::talk(int value)
 {
