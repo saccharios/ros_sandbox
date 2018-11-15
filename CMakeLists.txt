@@ -121,7 +121,7 @@ include_directories(
 )
 
 ## Declare a C++ library
- add_library(${PROJECT_NAME}
+ add_library(integration_test
    src/calculator.cpp
  )
 
@@ -198,12 +198,18 @@ if(TARGET ${UNIT_TEST})
   target_link_libraries(${UNIT_TEST} ${catkin_LIBRARIES})
 endif()
 
-SET(INTEGRATION_TEST integration_test)
-catkin_add_gtest(${INTEGRATION_TEST} test/listener_impl_test.cpp)
-if(TARGET ${INTEGRATION_TEST})
-  target_link_libraries(${INTEGRATION_TEST} ${catkin_LIBRARIES})
-endif()
+#SET(INTEGRATION_TEST integration_test)
+#catkin_add_gtest(${INTEGRATION_TEST} test/listener_impl_test.cpp)
+#if(TARGET ${INTEGRATION_TEST})
+#  target_link_libraries(${INTEGRATION_TEST} ${catkin_LIBRARIES})
+#endif()
 
+
+if(CATKIN_ENABLE_TESTING)
+    find_package(rostest REQUIRED)
+    add_rostest_gtest(testing_test launch/integration_test_launcher.test test/calculator_test.cpp)
+    target_link_libraries(testing_test ${catkin_LIBRARIES} integration_test)
+endif()
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
 
