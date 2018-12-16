@@ -16,7 +16,6 @@ public:
 
     void talkerCallback(const std_msgs::String::ConstPtr& msg)
     {
-        std::cerr << "Iam called\n";
         _message = msg->data.c_str();
         ROS_INFO_STREAM( "I heard: " << _message);
     }
