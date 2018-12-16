@@ -1,6 +1,5 @@
 #include <gtest/gtest.h>
 #include "ros/ros.h"
-#include <thread>
 #include "../src/calculator.h"
 
 
@@ -21,15 +20,3 @@ TEST(Calculator, CalculatorHighValue)
 
 }
 
-//int main(int argc, char **argv)
-//{
-//  testing::InitGoogleTest(&argc, argv);
-//  std::thread t([]{while(ros::ok()) ros::spin();});
-//
-//  ros::init(argc, argv, "Integration_Test_Node");
-//  auto result = RUN_ALL_TESTS();
-//
-//  ros::shutdown();
-//  return result;
-//}
-//

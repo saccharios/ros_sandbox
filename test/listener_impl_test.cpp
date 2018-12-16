@@ -1,6 +1,8 @@
 #include <gtest/gtest.h>
 #include "ros/ros.h"
 #include "../src/listener_impl.h"
+#include <rosconsole/macros_generated.h>
+#include "std_msgs/String.h"
 
 //TEST(ListenerTest, Listen)
 //{
@@ -39,30 +41,23 @@ TEST(Generic, Do)
 {
     ros::NodeHandle nh;
     AnyHelper h;
-    ros::Subscriber sub = nh.subscribe("generic", 0, &AnyHelper::cb, &h);
-    ros::Publisher pub = nh.advertise<std_msgs::String>("generic",0);
+    ros::Subscriber sub = nh.subscribe("generic", 1000, &AnyHelper::cb, &h);
+    ros::Publisher pub = nh.advertise<std_msgs::String>("generic",1000);
 
     EXPECT_EQ(pub.getNumSubscribers(), 1);
     EXPECT_EQ(sub.getNumPublishers(), 1);
 
     std_msgs::String expected_msg;
     std::stringstream ss;
-    ss << "generic test";
     expected_msg.data = ss.str();
+    ROS_INFO_STREAM(expected_msg.data.c_str());
+    std::cerr << expected_msg.data.c_str() <<"\n";
     pub.publish(expected_msg);
+
+    ros::master::check(); // TODO SF: Why is this needed here?
     ros::spinOnce();
 
     EXPECT_EQ(h._count, 1);
 }
 
-
-int main(int argc, char **argv)
-{
-  testing::InitGoogleTest(&argc, argv);
-
-  ros::init(argc, argv, "tester");
-  ros::NodeHandle node_handle;
-
-  return RUN_ALL_TESTS();
-}
 
