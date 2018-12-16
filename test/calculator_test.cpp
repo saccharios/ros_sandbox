@@ -4,7 +4,7 @@
 #include "../src/calculator.h"
 
 
-TEST(Calculator, lowValue)
+TEST(Calculator, CalculatorLowValue)
 {
     Calculator calculator;
     int init_value = 3;
@@ -12,7 +12,7 @@ TEST(Calculator, lowValue)
     EXPECT_EQ(value, init_value + 5);
 }
 
-TEST(Calculator, highValue)
+TEST(Calculator, CalculatorHighValue)
 {
     Calculator calculator;
     int init_value = 42;
@@ -21,15 +21,15 @@ TEST(Calculator, highValue)
 
 }
 
-int main(int argc, char **argv)
-{
-  testing::InitGoogleTest(&argc, argv);
-  std::thread t([]{while(ros::ok()) ros::spin();});
-
-  ros::init(argc, argv, "Integration_Test_Node");
-  auto result = RUN_ALL_TESTS();
-
-  ros::shutdown();
-  return result;
-}
-
+//int main(int argc, char **argv)
+//{
+//  testing::InitGoogleTest(&argc, argv);
+//  std::thread t([]{while(ros::ok()) ros::spin();});
+//
+//  ros::init(argc, argv, "Integration_Test_Node");
+//  auto result = RUN_ALL_TESTS();
+//
+//  ros::shutdown();
+//  return result;
+//}
+//

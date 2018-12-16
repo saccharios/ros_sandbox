@@ -121,7 +121,7 @@ include_directories(
 )
 
 ## Declare a C++ library
- add_library(integration_test
+ add_library(node_unit_tests
    src/calculator.cpp
  )
 
@@ -207,8 +207,8 @@ endif()
 
 if(CATKIN_ENABLE_TESTING)
     find_package(rostest REQUIRED)
-    add_rostest_gtest(integration_test_exe launch/integration_test_launcher.test test/calculator_test.cpp)
-    target_link_libraries(integration_test_exe ${catkin_LIBRARIES} integration_test)
+    add_rostest_gtest(node_unit_tests_exe launch/node_unit_tests_launcher.test test/node_unit_tests.cpp test/calculator_test.cpp)
+    target_link_libraries(node_unit_tests_exe ${catkin_LIBRARIES} node_unit_tests)
 endif()
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
