@@ -1,10 +1,10 @@
-/*
- * talker_impl_test.cpp
- *
- *  Created on: Dec 18, 2018
- *      Author: stefan
- */
+#include <gtest/gtest.h>
+#include "ros/ros.h"
+#include "../../src/talker_impl.h"
 
-
+TEST(TalkerTest, TalkerTest)
+{
+    EXPECT_TRUE(false);
+}
 
 
