@@ -24,7 +24,6 @@ TEST(ListenerTest, ListenerTest)
     ros::spinOnce();
     std::string actual_msg = listener.getMessage();
     EXPECT_EQ(actual_msg, expected_msg.data);
-
 }
 
 class AnyHelper
