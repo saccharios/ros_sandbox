@@ -211,7 +211,7 @@ if(CATKIN_ENABLE_TESTING)
     launch/node_unit_tests_launcher.test 
     test/nodes/node_unit_tests.cpp 
     test/nodes/calculator_test.cpp
-    test/nodes/listener_impl_test.cpp
+    #test/nodes/listener_impl_test.cpp
     test/nodes/talker_impl_test.cpp)
     target_link_libraries(node_unit_tests_exe ${catkin_LIBRARIES} node_unit_tests)
 endif()
