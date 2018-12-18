@@ -28,4 +28,9 @@ TEST(TalkerTest, TalkerTest)
     EXPECT_EQ(h._received_msg.data, std::string("hello world 1"));
 }
 
-
+int main(int argc, char **argv)
+{
+    testing::InitGoogleTest(&argc, argv);
+    ros::init(argc, argv, "talker_test_node");
+    return RUN_ALL_TESTS();
+}

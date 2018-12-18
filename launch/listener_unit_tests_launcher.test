@@ -1,4 +1,3 @@
 <launch>
-  <test test-name="talker_unit_tests" pkg="beginner_tutorials" type="talker_unit_tests_exe" />
   <test test-name="listener_unit_tests" pkg="beginner_tutorials" type="listener_unit_tests_exe" />
 </launch>

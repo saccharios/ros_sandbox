@@ -59,4 +59,9 @@ TEST(Generic, SelfSubscriber)
     EXPECT_EQ(h._count, 1);
 }
 
-
+int main(int argc, char **argv)
+{
+    testing::InitGoogleTest(&argc, argv);
+    ros::init(argc, argv, "listener_test_node");
+    return RUN_ALL_TESTS();
+}

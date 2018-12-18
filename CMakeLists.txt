@@ -121,7 +121,10 @@ include_directories(
 )
 
 ## Declare a C++ library
- add_library(node_unit_tests
+ add_library(talker_unit_tests
+   src/calculator.cpp
+ )
+ add_library(listener_unit_tests
    src/calculator.cpp
  )
 
@@ -207,13 +210,15 @@ endif()
 
 if(CATKIN_ENABLE_TESTING)
     find_package(rostest REQUIRED)
-    add_rostest_gtest(node_unit_tests_exe 
-    launch/node_unit_tests_launcher.test 
-    test/nodes/node_unit_tests.cpp 
+    add_rostest_gtest(talker_unit_tests_exe 
+    launch/talker_unit_tests_launcher.test 
     test/nodes/calculator_test.cpp
-    #test/nodes/listener_impl_test.cpp
     test/nodes/talker_impl_test.cpp)
-    target_link_libraries(node_unit_tests_exe ${catkin_LIBRARIES} node_unit_tests)
+    target_link_libraries(talker_unit_tests_exe ${catkin_LIBRARIES} talker_unit_tests)
+    add_rostest_gtest(listener_unit_tests_exe 
+    launch/listener_unit_tests_launcher.test 
+    test/nodes/listener_impl_test.cpp)
+    target_link_libraries(listener_unit_tests_exe ${catkin_LIBRARIES} listener_unit_tests)
 endif()
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
