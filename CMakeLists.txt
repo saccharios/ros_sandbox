@@ -193,7 +193,7 @@ include_directories(
 SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread")
 SET(UNIT_TEST unit_test)
 
-catkin_add_gtest(${UNIT_TEST} test/unit_test_example.cpp)
+catkin_add_gtest(${UNIT_TEST} test/library/unit_test_example.cpp)
 if(TARGET ${UNIT_TEST})
   target_link_libraries(${UNIT_TEST} ${catkin_LIBRARIES})
 endif()

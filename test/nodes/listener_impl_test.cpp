@@ -7,8 +7,6 @@
 TEST(ListenerTest, ListenerTest)
 {
 
-    int argc = 0;
-    char **argv = nullptr;
     // Mock talker
     ros::NodeHandle n;
     ros::Publisher talker_pub = n.advertise<std_msgs::String>("talker", 1000);
@@ -18,6 +16,8 @@ TEST(ListenerTest, ListenerTest)
     expected_msg.data = ss.str();
 
 
+    int argc = 0;
+    char **argv = nullptr;
     ListenerImpl listener(argc, argv);
     talker_pub.publish(expected_msg);
     ros::master::check(); // TODO SF: Why is this needed here?
