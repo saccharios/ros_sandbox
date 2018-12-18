@@ -1,7 +1,7 @@
+#pragma once
 #include <rosconsole/macros_generated.h>
 #include "ros/ros.h"
 #include "std_msgs/String.h"
-
 class ListenerImpl
 {
 public:
