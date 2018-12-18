@@ -1,6 +1,5 @@
 #include <gtest/gtest.h>
 #include "ros/ros.h"
-#include "../src/calculator.h"
 #include <thread>
 
 int main(int argc, char **argv)
