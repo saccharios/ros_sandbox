@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 #include "ros/ros.h"
-#include "../../src/talker_impl.h"
+#include "talker_impl.h"
 
 
 class AnyHelper

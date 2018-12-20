@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 #include "ros/ros.h"
-#include "../../src/calculator.h"
+#include "calculator.h"
 
 
 TEST(Calculator, CalculatorLowValue)
