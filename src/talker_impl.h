@@ -1,8 +1,7 @@
 #pragma once
 #include "ros/ros.h"
-#include "std_msgs/String.h"
-
 #include <sstream>
+#include "beginner_tutorials/Text.h"
 
 class Talker
 {
@@ -10,16 +9,16 @@ public:
     Talker(int argc, char **argv) :
         _n()
 {
-       _pub = _n.advertise<std_msgs::String>("talker", 1000);
+       _pub = _n.advertise<beginner_tutorials::Text>("talker", 1000);
 }
 
     void talk(int num)
     {
-        std_msgs::String msg;
+        beginner_tutorials::Text msg;
         std::stringstream ss;
         ss << "hello world " << num;
-        msg.data = ss.str();
-        ROS_INFO("%s", msg.data.c_str());
+        msg.text = ss.str();
+        ROS_INFO("%s", msg.text.c_str());
         _pub.publish(msg);
     }
 

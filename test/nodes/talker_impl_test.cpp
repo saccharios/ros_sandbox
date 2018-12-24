@@ -1,13 +1,13 @@
 #include <gtest/gtest.h>
 #include "ros/ros.h"
 #include "talker_impl.h"
-
+#include "beginner_tutorials/Text.h"
 
 class AnyHelper
 {
 public:
-    std_msgs::String  _received_msg;
-    void cb(std_msgs::String msg)
+    beginner_tutorials::Text  _received_msg;
+    void cb(beginner_tutorials::Text msg)
     {
         _received_msg = msg;
     }
@@ -25,7 +25,7 @@ TEST(TalkerTest, TalkerTest)
     talker.talk(1);
     ros::master::check(); // TODO SF: Why is this needed here?
     ros::spinOnce();
-    EXPECT_EQ(h._received_msg.data, std::string("hello world 1"));
+    EXPECT_EQ(h._received_msg.text, std::string("hello world 1"));
 }
 
 int main(int argc, char **argv)

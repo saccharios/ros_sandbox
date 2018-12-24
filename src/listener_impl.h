@@ -1,7 +1,7 @@
 #pragma once
 #include <rosconsole/macros_generated.h>
 #include "ros/ros.h"
-#include "std_msgs/String.h"
+#include "beginner_tutorials/Text.h"
 class ListenerImpl
 {
 public:
@@ -14,9 +14,9 @@ public:
     }
 
 
-    void talkerCallback(const std_msgs::String::ConstPtr& msg)
+    void talkerCallback(const beginner_tutorials::TextConstPtr & msg)
     {
-        _message = msg->data.c_str();
+        _message = msg->text;
         ROS_INFO_STREAM( "I heard: " << _message);
     }
 
