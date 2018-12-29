@@ -218,6 +218,10 @@ if(CATKIN_ENABLE_TESTING)
     launch/listener_unit_tests_launcher.test 
     test/nodes/listener_impl_test.cpp)
     target_link_libraries(listener_unit_tests_exe ${catkin_LIBRARIES} unit_test_lib)
+    add_rostest_gtest(add_two_int_test_exe 
+    launch/add_two_ints_launcher.launch
+    test/integration/add_two_ints_service_test.cpp)
+    target_link_libraries(add_two_int_test_exe ${catkin_LIBRARIES} unit_test_lib)
 endif()
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
