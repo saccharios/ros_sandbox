@@ -1,4 +1,4 @@
 <launch>
-  <node pkg="beginner_tutorials" name="add_two_ints_service" type="add_two_ints_server"/>
-  <test test-name="add_two_int_test" pkg="beginner_tutorials" type="add_two_int_test_exe" />
+  <node pkg="beginner_tutorials" name="add_two_ints_service" type="add_two_ints_server" output="screen"/>
+  <test test-name="add_two_int_test" pkg="beginner_tutorials" type="add_two_int_test_exe" output="screen"/>
 </launch>
