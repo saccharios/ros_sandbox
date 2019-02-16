@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="beginner_tutorials" targetName="rosgraph_msgs_generate_messages_cpp" />
+      <config projectName="beginner_tutorials" targetName="run_tests_beginner_tutorials" />
+      <config projectName="beginner_tutorials" targetName="beginner_tutorials_genpy" />
+      <config projectName="beginner_tutorials" targetName="roscpp_generate_messages_nodejs" />
+      <config projectName="beginner_tutorials" targetName="std_msgs_generate_messages_eus" />
+      <config projectName="beginner_tutorials" targetName="beginner_tutorials_generate_messages" />
+      <config projectName="beginner_tutorials" targetName="beginner_tutorials_generate_messages_cpp" />
+      <config projectName="beginner_tutorials" targetName="std_msgs_generate_messages_py" />
+      <config projectName="beginner_tutorials" targetName="beginner_tutorials_generate_messages_lisp" />
+      <config projectName="beginner_tutorials" targetName="rosgraph_msgs_generate_messages_py" />
+      <config projectName="beginner_tutorials" targetName="doxygen" />
+      <config projectName="beginner_tutorials" targetName="_run_tests_beginner_tutorials_rostest_launch_talker_unit_tests_launcher.test" />
+      <config projectName="beginner_tutorials" targetName="_run_tests_beginner_tutorials_gtest_unit_test" />
+      <config projectName="beginner_tutorials" targetName="rosgraph_msgs_generate_messages_lisp" />
+      <config projectName="beginner_tutorials" targetName="add_two_ints_server" />
+      <config projectName="beginner_tutorials" targetName="run_tests_beginner_tutorials_rostest" />
+      <config projectName="beginner_tutorials" targetName="add_two_ints_client" />
+      <config projectName="beginner_tutorials" targetName="std_msgs_generate_messages_nodejs" />
+      <config projectName="beginner_tutorials" targetName="rosgraph_msgs_generate_messages_eus" />
+      <config projectName="beginner_tutorials" targetName="add_two_int_test_exe" />
+      <config projectName="beginner_tutorials" targetName="std_msgs_generate_messages_cpp" />
+      <config projectName="beginner_tutorials" targetName="beginner_tutorials_geneus" />
+      <config projectName="beginner_tutorials" targetName="roscpp_generate_messages_py" />
+      <config projectName="beginner_tutorials" targetName="gtest" />
+      <config projectName="beginner_tutorials" targetName="roscpp_generate_messages_eus" />
+      <config projectName="beginner_tutorials" targetName="_beginner_tutorials_generate_messages_check_deps_Text" />
+      <config projectName="beginner_tutorials" targetName="clean_test_results_beginner_tutorials" />
+      <config projectName="beginner_tutorials" targetName="unit_test" />
+      <config projectName="beginner_tutorials" targetName="rosgraph_msgs_generate_messages_nodejs" />
+      <config projectName="beginner_tutorials" targetName="gmock" />
+      <config projectName="beginner_tutorials" targetName="run_tests_beginner_tutorials_rostest_launch_talker_unit_tests_launcher.test" />
+      <config projectName="beginner_tutorials" targetName="_run_tests_beginner_tutorials_gtest" />
+      <config projectName="beginner_tutorials" targetName="_beginner_tutorials_generate_messages_check_deps_AddTwoInts" />
+      <config projectName="beginner_tutorials" targetName="run_tests_beginner_tutorials_gtest" />
+      <config projectName="beginner_tutorials" targetName="beginner_tutorials_generate_messages_py" />
+      <config projectName="beginner_tutorials" targetName="_run_tests_beginner_tutorials_rostest_launch_listener_unit_tests_launcher.test" />
+      <config projectName="beginner_tutorials" targetName="run_tests_beginner_tutorials_rostest_launch_listener_unit_tests_launcher.test" />
+      <config projectName="beginner_tutorials" targetName="beginner_tutorials_gencpp" />
+      <config projectName="beginner_tutorials" targetName="beginner_tutorials_generate_messages_nodejs" />
+      <config projectName="beginner_tutorials" targetName="_run_tests_beginner_tutorials" />
+      <config projectName="beginner_tutorials" targetName="_run_tests_beginner_tutorials_rostest_launch_add_two_ints_launcher.launch" />
+      <config projectName="beginner_tutorials" targetName="roscpp_generate_messages_cpp" />
+      <config projectName="beginner_tutorials" targetName="tests" />
+      <config projectName="beginner_tutorials" targetName="listener_node" />
+      <config projectName="beginner_tutorials" targetName="_beginner_tutorials_generate_messages_check_deps_Num" />
+      <config projectName="beginner_tutorials" targetName="download_extra_data" />
+      <config projectName="beginner_tutorials" targetName="run_tests_beginner_tutorials_rostest_launch_add_two_ints_launcher.launch" />
+      <config projectName="beginner_tutorials" targetName="clean_test_results" />
+      <config projectName="beginner_tutorials" targetName="beginner_tutorials_genlisp" />
+      <config projectName="beginner_tutorials" targetName="talker_node" />
+      <config projectName="beginner_tutorials" targetName="std_msgs_generate_messages_lisp" />
+      <config projectName="beginner_tutorials" targetName="gtest_main" />
+      <config projectName="beginner_tutorials" targetName="run_tests_beginner_tutorials_gtest_unit_test" />
+      <config projectName="beginner_tutorials" targetName="run_tests" />
+      <config projectName="beginner_tutorials" targetName="listener_unit_tests_exe" />
+      <config projectName="beginner_tutorials" targetName="gmock_main" />
+      <config projectName="beginner_tutorials" targetName="talker_unit_tests_exe" />
+      <config projectName="beginner_tutorials" targetName="beginner_tutorials_generate_messages_eus" />
+      <config projectName="beginner_tutorials" targetName="beginner_tutorials_gennodejs" />
+      <config projectName="beginner_tutorials" targetName="roscpp_generate_messages_lisp" />
+      <config projectName="beginner_tutorials" targetName="_run_tests_beginner_tutorials_rostest" />
+      <config projectName="beginner_tutorials" targetName="unit_test_lib" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Release" CONFIG_NAME="Release" GENERATION_OPTIONS="-DCATKIN_DEVEL_PREFIX:PATH=/home/stefan/catkin_ws/devel -DCMAKE_BUILD_TYPE=Debug" GENERATION_DIR="$PROJECT_DIR$/../../build" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ba5748ab-ecc9-495a-9738-7769f870c76e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/launch/add_two_ints_launcher.launch" beforeDir="false" afterPath="$PROJECT_DIR$/launch/add_two_ints_launcher.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/library/unit_test_example.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test/library/unit_main.cpp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <ignored path="/usr/src/googletest/googletest/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/../../build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-840">
+              <caret line="124" selection-start-line="124" selection-end-line="124" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/library/unit_main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="24" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/library/PolynomialTest.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+              <folding>
+                <element signature="e#14#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/Polynomial.h">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/SimpleStateEstimation.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/lib/main.cpp" />
+        <option value="$PROJECT_DIR$/test/library/unit_main.cpp" />
+        <option value="$PROJECT_DIR$/lib/run.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/test/library/PolynomialTest.h" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1987" />
+    <option name="y" value="27" />
+    <option name="width" value="1042" />
+    <option name="height" value="1053" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="beginner_tutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beginner_tutorials" type="47feb1d3:ProjectViewModuleNode" />
+            </path>
+            <path>
+              <item name="beginner_tutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beginner_tutorials" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="beginner_tutorials" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beginner_tutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beginner_tutorials" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="beginner_tutorials" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beginner_tutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beginner_tutorials" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="beginner_tutorials" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beginner_tutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beginner_tutorials" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="beginner_tutorials" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.unit_test">
+    <configuration name="_beginner_tutorials_generate_messages_check_deps_AddTwoInts" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="_beginner_tutorials_generate_messages_check_deps_AddTwoInts" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_beginner_tutorials_generate_messages_check_deps_Num" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="_beginner_tutorials_generate_messages_check_deps_Num" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_beginner_tutorials_generate_messages_check_deps_Text" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="_beginner_tutorials_generate_messages_check_deps_Text" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_run_tests_beginner_tutorials" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="_run_tests_beginner_tutorials" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_run_tests_beginner_tutorials_gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="_run_tests_beginner_tutorials_gtest" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_run_tests_beginner_tutorials_gtest_unit_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="_run_tests_beginner_tutorials_gtest_unit_test" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_run_tests_beginner_tutorials_rostest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="_run_tests_beginner_tutorials_rostest" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_run_tests_beginner_tutorials_rostest_launch_add_two_ints_launcher.launch" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="_run_tests_beginner_tutorials_rostest_launch_add_two_ints_launcher.launch" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_run_tests_beginner_tutorials_rostest_launch_listener_unit_tests_launcher.test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="_run_tests_beginner_tutorials_rostest_launch_listener_unit_tests_launcher.test" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_run_tests_beginner_tutorials_rostest_launch_talker_unit_tests_launcher.test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="_run_tests_beginner_tutorials_rostest_launch_talker_unit_tests_launcher.test" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="add_two_int_test_exe" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="add_two_int_test_exe" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="beginner_tutorials" RUN_TARGET_NAME="add_two_int_test_exe">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="add_two_ints_client" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="add_two_ints_client" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="beginner_tutorials" RUN_TARGET_NAME="add_two_ints_client">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="add_two_ints_server" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="add_two_ints_server" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="beginner_tutorials" RUN_TARGET_NAME="add_two_ints_server">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="beginner_tutorials_gencpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="beginner_tutorials_gencpp" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="beginner_tutorials_generate_messages" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="beginner_tutorials_generate_messages" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="beginner_tutorials_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="beginner_tutorials_generate_messages_cpp" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="beginner_tutorials_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="beginner_tutorials_generate_messages_eus" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="beginner_tutorials_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="beginner_tutorials_generate_messages_lisp" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="beginner_tutorials_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="beginner_tutorials_generate_messages_nodejs" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="beginner_tutorials_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="beginner_tutorials_generate_messages_py" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="beginner_tutorials_geneus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="beginner_tutorials_geneus" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="beginner_tutorials_genlisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="beginner_tutorials_genlisp" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="beginner_tutorials_gennodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="beginner_tutorials_gennodejs" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="beginner_tutorials_genpy" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="beginner_tutorials_genpy" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clean_test_results" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="clean_test_results" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clean_test_results_beginner_tutorials" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="clean_test_results_beginner_tutorials" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="download_extra_data" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="download_extra_data" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="doxygen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="doxygen" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="gmock" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmock_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="gmock_main" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="gtest" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="gtest_main" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="listener_node" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="listener_node" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="beginner_tutorials" RUN_TARGET_NAME="listener_node">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="listener_unit_tests_exe" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="listener_unit_tests_exe" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="beginner_tutorials" RUN_TARGET_NAME="listener_unit_tests_exe">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="roscpp_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="roscpp_generate_messages_cpp" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="roscpp_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="roscpp_generate_messages_eus" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="roscpp_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="roscpp_generate_messages_lisp" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="roscpp_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="roscpp_generate_messages_nodejs" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="roscpp_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="roscpp_generate_messages_py" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosgraph_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="rosgraph_msgs_generate_messages_cpp" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosgraph_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="rosgraph_msgs_generate_messages_eus" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosgraph_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="rosgraph_msgs_generate_messages_lisp" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosgraph_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="rosgraph_msgs_generate_messages_nodejs" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosgraph_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="rosgraph_msgs_generate_messages_py" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="run_tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="run_tests" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="run_tests_beginner_tutorials" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="run_tests_beginner_tutorials" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="run_tests_beginner_tutorials_gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="run_tests_beginner_tutorials_gtest" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="run_tests_beginner_tutorials_gtest_unit_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="run_tests_beginner_tutorials_gtest_unit_test" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="run_tests_beginner_tutorials_rostest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="run_tests_beginner_tutorials_rostest" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="run_tests_beginner_tutorials_rostest_launch_add_two_ints_launcher.launch" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="run_tests_beginner_tutorials_rostest_launch_add_two_ints_launcher.launch" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="run_tests_beginner_tutorials_rostest_launch_listener_unit_tests_launcher.test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="run_tests_beginner_tutorials_rostest_launch_listener_unit_tests_launcher.test" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="run_tests_beginner_tutorials_rostest_launch_talker_unit_tests_launcher.test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="run_tests_beginner_tutorials_rostest_launch_talker_unit_tests_launcher.test" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="std_msgs_generate_messages_cpp" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="std_msgs_generate_messages_eus" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="std_msgs_generate_messages_lisp" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="std_msgs_generate_messages_nodejs" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="std_msgs_generate_messages_py" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="talker_node" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="talker_node" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="beginner_tutorials" RUN_TARGET_NAME="talker_node">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="talker_unit_tests_exe" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="talker_unit_tests_exe" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="beginner_tutorials" RUN_TARGET_NAME="talker_unit_tests_exe">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="tests" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="unit_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="unit_test" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="beginner_tutorials" RUN_TARGET_NAME="unit_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="unit_test_lib" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="unit_test_lib" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application._beginner_tutorials_generate_messages_check_deps_AddTwoInts" />
+      <item itemvalue="Application._beginner_tutorials_generate_messages_check_deps_Num" />
+      <item itemvalue="Application._beginner_tutorials_generate_messages_check_deps_Text" />
+      <item itemvalue="Application._run_tests_beginner_tutorials" />
+      <item itemvalue="Application._run_tests_beginner_tutorials_gtest" />
+      <item itemvalue="Application._run_tests_beginner_tutorials_gtest_unit_test" />
+      <item itemvalue="Application._run_tests_beginner_tutorials_rostest" />
+      <item itemvalue="Application._run_tests_beginner_tutorials_rostest_launch_add_two_ints_launcher.launch" />
+      <item itemvalue="Application._run_tests_beginner_tutorials_rostest_launch_listener_unit_tests_launcher.test" />
+      <item itemvalue="Application._run_tests_beginner_tutorials_rostest_launch_talker_unit_tests_launcher.test" />
+      <item itemvalue="Application.add_two_int_test_exe" />
+      <item itemvalue="Application.add_two_ints_client" />
+      <item itemvalue="Application.add_two_ints_server" />
+      <item itemvalue="Application.beginner_tutorials_gencpp" />
+      <item itemvalue="Application.beginner_tutorials_generate_messages" />
+      <item itemvalue="Application.beginner_tutorials_generate_messages_cpp" />
+      <item itemvalue="Application.beginner_tutorials_generate_messages_eus" />
+      <item itemvalue="Application.beginner_tutorials_generate_messages_lisp" />
+      <item itemvalue="Application.beginner_tutorials_generate_messages_nodejs" />
+      <item itemvalue="Application.beginner_tutorials_generate_messages_py" />
+      <item itemvalue="Application.beginner_tutorials_geneus" />
+      <item itemvalue="Application.beginner_tutorials_genlisp" />
+      <item itemvalue="Application.beginner_tutorials_gennodejs" />
+      <item itemvalue="Application.beginner_tutorials_genpy" />
+      <item itemvalue="Application.clean_test_results" />
+      <item itemvalue="Application.clean_test_results_beginner_tutorials" />
+      <item itemvalue="Application.download_extra_data" />
+      <item itemvalue="Application.doxygen" />
+      <item itemvalue="Application.listener_node" />
+      <item itemvalue="Application.listener_unit_tests_exe" />
+      <item itemvalue="Application.roscpp_generate_messages_cpp" />
+      <item itemvalue="Application.roscpp_generate_messages_eus" />
+      <item itemvalue="Application.roscpp_generate_messages_lisp" />
+      <item itemvalue="Application.roscpp_generate_messages_nodejs" />
+      <item itemvalue="Application.roscpp_generate_messages_py" />
+      <item itemvalue="Application.rosgraph_msgs_generate_messages_cpp" />
+      <item itemvalue="Application.rosgraph_msgs_generate_messages_eus" />
+      <item itemvalue="Application.rosgraph_msgs_generate_messages_lisp" />
+      <item itemvalue="Application.rosgraph_msgs_generate_messages_nodejs" />
+      <item itemvalue="Application.rosgraph_msgs_generate_messages_py" />
+      <item itemvalue="Application.run_tests" />
+      <item itemvalue="Application.run_tests_beginner_tutorials" />
+      <item itemvalue="Application.run_tests_beginner_tutorials_gtest" />
+      <item itemvalue="Application.run_tests_beginner_tutorials_gtest_unit_test" />
+      <item itemvalue="Application.run_tests_beginner_tutorials_rostest" />
+      <item itemvalue="Application.run_tests_beginner_tutorials_rostest_launch_add_two_ints_launcher.launch" />
+      <item itemvalue="Application.run_tests_beginner_tutorials_rostest_launch_listener_unit_tests_launcher.test" />
+      <item itemvalue="Application.run_tests_beginner_tutorials_rostest_launch_talker_unit_tests_launcher.test" />
+      <item itemvalue="Application.std_msgs_generate_messages_cpp" />
+      <item itemvalue="Application.std_msgs_generate_messages_eus" />
+      <item itemvalue="Application.std_msgs_generate_messages_lisp" />
+      <item itemvalue="Application.std_msgs_generate_messages_nodejs" />
+      <item itemvalue="Application.std_msgs_generate_messages_py" />
+      <item itemvalue="Application.talker_node" />
+      <item itemvalue="Application.talker_unit_tests_exe" />
+      <item itemvalue="Application.tests" />
+      <item itemvalue="Application.unit_test" />
+      <item itemvalue="Application.unit_test_lib" />
+      <item itemvalue="Application.gmock" />
+      <item itemvalue="Application.gmock_main" />
+      <item itemvalue="Application.gtest" />
+      <item itemvalue="Application.gtest_main" />
+    </list>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1987" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17432208" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.32937366" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32829374" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32829374" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32900432" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.32900432" />
+      <window_info anchor="right" id="Key Promoter X" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/add_two_ints_client.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/run.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/SimpleStateEstimation.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-840">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/library/unit_main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="24" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/library/PolynomialTest.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <element signature="e#14#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Polynomial.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
