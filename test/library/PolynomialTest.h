@@ -40,7 +40,7 @@ void run_2(double x_coord, std::vector<double> const & coeff_arr)
     Polynomial derived_polynomial = polynomial.CalculateDerivative();
 
 
-    derived_polynomial.Print();
+    std::cout << derived_polynomial;
 
     double result = derived_polynomial.evaluateAt(x_coord);
 
